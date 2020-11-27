@@ -62,8 +62,8 @@ var ctx2 = document.getElementById('myChart2').getContext('2d');
             data: {
                 labels: ['Data Terinput', 'Unknown'],
                 datasets: [{
-                    label: '# of Votes',
-                    data: [Object.keys(data.anggota).length, 20 - Object.keys(data.anggota).length],
+                    label: 'Data Anggoota',
+                    data: [Object.keys(data.anggota).length, 21 - Object.keys(data.anggota).length],
                     backgroundColor: [
                         'rgba(255, 99, 132, 0.8)',
                         'rgba(54, 162, 235, 0.8)',
@@ -87,7 +87,7 @@ var ctx2 = document.getElementById('myChart2').getContext('2d');
             data: {
                 labels: ['Tahap 1', 'Tahap 2', 'Tahap 3', 'Tahap 4', 'Tahap 5', 'Tahap 6'],
                 datasets: [{
-                    label: '# of Votes',
+                    label: 'Data Kemampuan',
                     data: [lulus1, lulus2, lulus3, lulus4, lulus5, lulus6],
                     backgroundColor: [
                         'rgba(153, 102, 255, 0.8)',
