@@ -4,7 +4,7 @@ var ctx2 = document.getElementById('myChart2').getContext('2d');
     function getData() {
         (localStorage.getItem('data') == null) ? setData('anggota') : false;
         $.ajax({ 
-            url:  'gen4code/data/' +  localStorage.getItem('data') + '.json', 
+            url:  '/gen4code/data/' +  localStorage.getItem('data') + '.json', 
             dataType: 'json', async: false, dataType: 'json', 
 
             success: function (dt) { 
